@@ -13,13 +13,17 @@
     "@sanity/client": "^3.4.1",
     "@sanity/image-url": "^1.0.1",
     "@stripe/stripe-js": "^1.46.0",
+    "bootstrap": "^5.2.3",
     "canvas-confetti": "^1.6.0",
     "next": "13.1.0",
     "next-sanity-image": "^5.0.0",
     "react": "18.2.0",
+    "react-bootstrap": "^2.7.0",
+    "react-bootstrap-country-select": "^1.0.0",
     "react-dom": "18.2.0",
     "react-hot-toast": "^2.4.0",
     "react-icons": "^4.7.1",
+    "react-loader-spinner": "^5.3.4",
     "stripe": "^11.4.0"
   },
   "devDependencies": {
