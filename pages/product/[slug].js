@@ -1,5 +1,4 @@
 import React ,{useState}from 'react'
-import {client,urlFor} from "../../lib/client"
 import {Product} from "../../components"
 import {AiOutlineMinus,AiOutlinePlus,AiFillStar,AiOutlineStar} from "react-icons/ai"
 import {useStateContext} from "../../context/StateContext"
@@ -211,8 +210,39 @@ Protection: 5ATM water resistance`,
             "price": 10,
             "slug": {
                 "_type": "slug",
-                "current": "headphones"
-            }
+                "current": "Oratech-Smartwatch-i7-Pro-Max-Series-7"
+            },
+             "reviews":[
+                  {
+                    "comment": "Very hight quality product, thanks",
+                    "images": ["1.jpg","2.jpg"],
+                    "userImage":"https://randomuser.me/api/portraits/women/48.jpg",
+                    "username":"Serenity Howard"
+                    },
+
+                         {
+                    "comment": "Fast shipping , came exactly as promoted.",
+                    "images": ["3.jpg"],
+                    "userImage":"https://randomuser.me/api/portraits/women/4.jpg",
+                    "username":"Vivan Fields"
+                    },
+
+
+                     {
+                    "comment": "Really good watch for that price , recomended",
+                    "images": ["4.jpg","6.jpg"],
+                    "userImage":"https://randomuser.me/api/portraits/men/54.jpg",
+                    "username":"Ethan Barrett"
+                    },
+
+
+                     {
+                    "comment": "goods match the description",
+                    "images": ["5.jpg"],
+                    "userImage":"https://randomuser.me/api/portraits/men/37.jpg",
+                    "username":"Cory Allen"
+                    }
+            ],
          },
 
 
@@ -372,12 +402,7 @@ Multi-system standalone GPS
                 "current": "Xiaomi-Redmi-Watch-2-Lite-Black"
             }
          },
-
-
-
-
-
-
+ 
 
 }
 
@@ -566,13 +591,8 @@ const ProductDetails = ({product,products,slug}) => {
 }
 
 export const getStaticPaths = async()=>{
-    const query = `*[_type == "product"]{
-        slug {
-            current
-        }
-    }
-    `
-    const Products = await client.fetch(query)
+    const Products =  Object.values(staticProducts)
+
 
     const paths = Products.map((product)=>({
         params : {
@@ -591,31 +611,11 @@ export const getStaticProps = async({params:{slug}})=>{
 
  
 
-    const query = `*[_type == "product" && slug.current == '${slug}'][0]`;
-    const productQuery = '*[_type == "product"]'
 
-    const product = await client.fetch(query)
-    const products = await client.fetch(productQuery)
+    const product =  staticProducts[slug]
+    const products = Object.values(staticProducts)
 
-
-products[0].name = "X8 Ultra Smartwatch 49MM"
-products[1].name = "Xiaomi Smart Band 7 Pro"
-products[2].name = "Oratech Smartwatch i7 Pro Max Series 7"
-products[3].name = "Wise Glaze"
-products[4].name = "Xiaomi Redmi Watch 2 Lite Black"
-    
-    products[0].slug.current = "X8-Ultra-Smartwatch-49MM"
-products[1].slug.current = "Xiaomi-Smart-Band-7-Pro"
-products[2].slug.current = "Oratech-Smartwatch-i7-Pro-Max-Series-7"
-products[3].slug.current = "Wise-Glaze"
-products[4].slug.current = "Xiaomi-Redmi-Watch-2-Lite-Black"
-
-products[0].price = 20
-products[1].price = 30
-products[2].price = 10
-products[3].price = 20
-products[4].price = 22
-
+ 
     return{
         props : {product,products, slug}
     }

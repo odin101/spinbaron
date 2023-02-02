@@ -12,8 +12,8 @@ const HeroBanner = ({heroBanner}) => {
                 <img src={('/assets/a64b345016e96adfb8849af5521c8e0ecfe8f027-555x555aa.png')} alt='headphones' className='hero-banner-image'/>
 
                 <div>
-                    <Link href={`/product/${(heroBanner.product).toLowerCase()}`}>
-                        <button type='button'>{heroBanner.buttonText}</button>
+                    <Link href={`/product/X8-Ultra-Smartwatch-49MM`}>
+                        <button type='button'>Shop now</button>
                     </Link>
                     <div className='desc'>
                         <h5>Best selling smart watch</h5>
