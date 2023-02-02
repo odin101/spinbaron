@@ -11,8 +11,9 @@ const Navbar = () => {
   return (
     <div className='navbar-container'>
       <p className='logo'>
-        <Link href="/">
-            Smart watches
+      <img   src={('/static/logo.jpg' )}  style={{width:50}}/>
+        <Link href="/" style={{textDecoration:"none",marginLeft:10,color:'#000',fontWeight:'bold'}}>
+            SpinBaron
         </Link>
       </p>
       <button type='button' className='cart-icon' onClick={()=>setShowCart(true)}>

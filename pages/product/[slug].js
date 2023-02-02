@@ -5,29 +5,29 @@ import {AiOutlineMinus,AiOutlinePlus,AiFillStar,AiOutlineStar} from "react-icons
 import {useStateContext} from "../../context/StateContext"
 
 let staticProducts = {
-      "headphones":{
+      "X8-Ultra-Smartwatch-49MM":{
             "_createdAt": "2022-12-23T12:21:48Z",
             "_id": "0ce2dbce-c80e-4fd7-b0be-2ff828adf524",
             "_rev": "L8aFLi55VFgOg3uLsrVSOr",
             "_type": "product",
             "_updatedAt": "2022-12-23T12:21:48Z",
             "details": `
-            Screen size: 2.08nch 
-            Waterproof level: IP67 
-            APP: WearFit pro
-            System requirements: Android5.0+ / ios10.0+
-            The main chip:HS6621-PG
-            Memory: 128MB
-            Bluetooth phone:AB5376A2
-            Bluetooth version:5.2
-            Battery capacity:300mah
-            Loudspeaker: YES
-            Charging interface mode: wireless charger cable
-            Note: Straps Color is Random
-            What's in the box:
-            Smart watch*1
-            Wireless Charger *1
-            User manual *1`,
+Screen size: 2.08nch 
+Waterproof level: IP67 
+APP: WearFit pro
+System requirements: Android5.0+ / ios10.0+
+The main chip:HS6621-PG
+Memory: 128MB
+Bluetooth phone:AB5376A2
+Bluetooth version:5.2
+Battery capacity:300mah
+Loudspeaker: YES
+Charging interface mode: wireless charger cable
+Note: Straps Color is Random
+What's in the box:
+Smart watch*1
+Wireless Charger *1
+User manual *1`,
             "image": [
                 {
                     "_key": "e916ef72026d",
@@ -38,7 +38,7 @@ let staticProducts = {
                     }
                 },
 
- {
+            {
                     "_key": "e916ef72026d",
                     "_type": "image",
                     "asset": {
@@ -51,14 +51,86 @@ let staticProducts = {
 
 
             ],
+
+                "reviews":[
+                  {
+                    "comment": "Very hight quality product, thanks",
+                    "images": ["1.jpg","2.jpg"],
+                    "userImage":"https://randomuser.me/api/portraits/women/48.jpg",
+                    "username":"Serenity Howard"
+                    },
+
+                         {
+                    "comment": "Fast shipping , came exactly as promoted.",
+                    "images": ["3.jpg"],
+                    "userImage":"https://randomuser.me/api/portraits/women/4.jpg",
+                    "username":"Vivan Fields"
+                    },
+
+
+                     {
+                    "comment": "Really good watch for that price , recomended",
+                    "images": ["4.jpg","6.jpg"],
+                    "userImage":"https://randomuser.me/api/portraits/men/54.jpg",
+                    "username":"Ethan Barrett"
+                    },
+
+
+                     {
+                    "comment": "goods match the description",
+                    "images": ["5.jpg"],
+                    "userImage":"https://randomuser.me/api/portraits/men/37.jpg",
+                    "username":"Cory Allen"
+                    }
+            ],
             "name": "X8 Ultra Smartwatch 49MM",
             "price": 20,
             "slug": {
                 "_type": "slug",
-                "current": "headphones"
+                "current": "X8-Ultra-Smartwatch-49MM"
             }
          },
-        "cool-in-ear-headphones":{
+        "Xiaomi-Smart-Band-7-Pro":{
+              "reviews":[
+                  {
+                    "comment": "Very hight quality product, thanks",
+                    "images": ["1.jpg","2.jpg"],
+                    "userImage":"https://randomuser.me/api/portraits/women/48.jpg",
+                    "username":"Serenity Howard"
+                    },
+
+                         {
+                    "comment": "Fast shipping , came exactly as promoted.",
+                    "images": ["3.jpg"],
+                    "userImage":"https://randomuser.me/api/portraits/women/4.jpg",
+                    "username":"Vivan Fields"
+                    },
+
+
+                     {
+                    "comment": "Really good watch for that price , recomended",
+                    "images": ["4.jpg","6.jpg"],
+                    "userImage":"https://randomuser.me/api/portraits/men/54.jpg",
+                    "username":"Ethan Barrett"
+                    },
+
+
+                     {
+                    "comment": "goods match the description",
+                    "images": ["5.jpg"],
+                    "userImage":"https://randomuser.me/api/portraits/men/37.jpg",
+                    "username":"Cory Allen"
+                    },
+
+
+                     {
+                    "comment": "good",
+                    "images": ["7.jpg","8.jpg"],
+                    "userImage":"https://randomuser.me/api/portraits/men/29.jpg",
+                    "username":"Timmothy Neal"
+                    }
+
+            ],
             "_createdAt": "2022-12-23T12:21:48Z",
             "_id": "0ce2dbce-c80e-4fd7-b0be-2ff828adf524",
             "_rev": "L8aFLi55VFgOg3uLsrVSOr",
@@ -91,10 +163,10 @@ Protection: 5ATM water resistance`,
             "price": 30,
             "slug": {
                 "_type": "slug",
-                "current": "headphones"
+                "current": "Xiaomi-Smart-Band-7-Pro"
             }
          },
-            "headphones_new":{
+            "Oratech-Smartwatch-i7-Pro-Max-Series-7":{
             "_createdAt": "2022-12-23T12:21:48Z",
             "_id": "0ce2dbce-c80e-4fd7-b0be-2ff828adf524",
             "_rev": "L8aFLi55VFgOg3uLsrVSOr",
@@ -144,29 +216,60 @@ Protection: 5ATM water resistance`,
          },
 
 
-           "speaker":{
+    "Wise-Glaze":{
+             "reviews":[
+                  {
+                    "comment": "Very hight quality product, thanks",
+                    "images": ["1.jpg","2.jpg"],
+                    "userImage":"https://randomuser.me/api/portraits/women/48.jpg",
+                    "username":"Serenity Howard"
+                    },
+
+                         {
+                    "comment": "Fast shipping , came exactly as promoted.",
+                    "images": ["3.jpg"],
+                    "userImage":"https://randomuser.me/api/portraits/women/4.jpg",
+                    "username":"Vivan Fields"
+                    },
+
+
+                     {
+                    "comment": "Really good watch for that price , recomended",
+                    "images": ["4.jpg","6.jpg"],
+                    "userImage":"https://randomuser.me/api/portraits/men/54.jpg",
+                    "username":"Ethan Barrett"
+                    },
+
+
+                     {
+                    "comment": "goods match the description",
+                    "images": ["5.jpg"],
+                    "userImage":"https://randomuser.me/api/portraits/men/37.jpg",
+                    "username":"Cory Allen"
+                    }
+            ],
             "_createdAt": "2022-12-23T12:21:48Z",
             "_id": "0ce2dbce-c80e-4fd7-b0be-2ff828adf524",
             "_rev": "L8aFLi55VFgOg3uLsrVSOr",
             "_type": "product",
             "_updatedAt": "2022-12-23T12:21:48Z",
             "details": `
-            Screen size: 2.08nch 
-            Waterproof level: IP67 
-            APP: WearFit pro
-            System requirements: Android5.0+ / ios10.0+
-            The main chip:HS6621-PG
-            Memory: 128MB
-            Bluetooth phone:AB5376A2
-            Bluetooth version:5.2
-            Battery capacity:300mah
-            Loudspeaker: YES
-            Charging interface mode: wireless charger cable
-            Note: Straps Color is Random
-            What's in the box:
-            Smart watch*1
-            Wireless Charger *1
-            User manual *1`,
+Screen size: 2.08nch 
+Waterproof level: IP67 
+APP: WearFit pro
+System requirements: Android5.0+ / ios10.0+
+The main chip:HS6621-PG
+Memory: 128MB
+Bluetooth phone:AB5376A2
+Bluetooth version:5.2
+Battery capacity:300mah
+Loudspeaker: YES
+Charging interface mode: wireless charger cable
+Note: Straps Color is Random
+What's in the box:
+Smart watch*1
+Wireless Charger *1
+User manual *1`,
             "image": [
                 {
                     "_key": "e916ef72026d",
@@ -190,15 +293,46 @@ Protection: 5ATM water resistance`,
 
 
             ],
-            "name": "X8 Ultra Smartwatch 49MM",
+            "name": "Wise Glaze",
             "price": 20,
             "slug": {
                 "_type": "slug",
-                "current": "headphones"
+                "current": "Wise-Glaze"
             }
          },
 
-  "earphones":{
+  "Xiaomi-Redmi-Watch-2-Lite-Black":{
+     "reviews":[
+                  {
+                    "comment": "Very hight quality product, thanks",
+                    "images": ["1.jpg","2.jpg"],
+                    "userImage":"https://randomuser.me/api/portraits/women/48.jpg",
+                    "username":"Serenity Howard"
+                    },
+
+                         {
+                    "comment": "Fast shipping , came exactly as promoted.",
+                    "images": ["3.jpg"],
+                    "userImage":"https://randomuser.me/api/portraits/women/4.jpg",
+                    "username":"Vivan Fields"
+                    },
+
+
+                     {
+                    "comment": "Really good watch for that price , recomended",
+                    "images": ["4.jpg","6.jpg"],
+                    "userImage":"https://randomuser.me/api/portraits/men/54.jpg",
+                    "username":"Ethan Barrett"
+                    },
+
+
+                     {
+                    "comment": "goods match the description",
+                    "images": ["5.jpg"],
+                    "userImage":"https://randomuser.me/api/portraits/men/37.jpg",
+                    "username":"Cory Allen"
+                    }
+            ],
             "_createdAt": "2022-12-23T12:21:48Z",
             "_id": "0ce2dbce-c80e-4fd7-b0be-2ff828adf524",
             "_rev": "L8aFLi55VFgOg3uLsrVSOr",
@@ -235,7 +369,7 @@ Multi-system standalone GPS
             "price": 22,
             "slug": {
                 "_type": "slug",
-                "current": "headphones"
+                "current": "Xiaomi-Redmi-Watch-2-Lite-Black"
             }
          },
 
@@ -270,7 +404,7 @@ const ProductDetails = ({product,products,slug}) => {
         <div className='product-detail-container'>
             <div>
                 <div className='image-container'>
-                    <img   src={('/assets/' + image[0].asset._ref)} className="product-detail-image"/>
+                    <img   src={('/assets/' + image[index].asset._ref)} className="product-detail-image"/>
                 </div>
                 <div className='small-images-container'>
                     {
@@ -294,7 +428,13 @@ const ProductDetails = ({product,products,slug}) => {
                     <AiOutlineStar/>
                     </div>
                     <p>(20)</p>
+                      <div>
+                 
+                    </div>
+                    <p style={{textDecoration:"underline"}}>100 reviews </p>
+                    <p style={{textDecoration:"underline"}}>197 bought </p>
                 </div>
+
                 <h4 >Description : </h4>
                 <p style={{whiteSpace:"pre-wrap"}}>{details}</p>
                 <p className='price'>${price}</p>
@@ -323,7 +463,90 @@ const ProductDetails = ({product,products,slug}) => {
             </div>
         </div>
 
+
+
+
+
+
+
+
+
+
+<div style={{padding:"20px !important"}}>
+          <h2>User Reviews</h2>
+
+</div>
+
+
+
+
+<section id="testimonials">
+
+        <div class="testimonial-box-container">
+        
+          
+           {
+            product.reviews.map(itm => {
+                return (
+
+            <div class="testimonial-box">
+                <div class="box-top">
+                    <div class="profile">
+                        <div class="profile-img">
+                            <img src={itm.userImage} />
+                        </div>
+                        <div class="name-user">
+                            <span>{itm.username}</span>
+                        </div>
+                    </div>
+                    <div class="reviews">     
+                      <a href="https://uk.trustpilot.com/review/www.packagingworld.co.uk" target="_blank">
+                        <div class="okayyyyy"></div>
+                      </a>
+                    </div>
+                </div>
+                <div class="client-comment">
+                    <p>{itm.comment}</p>
+                </div>
+                     <div style={{display:"flex",gap:20}}>
+              
+
+                    
+              
+                   {
+                itm.images.map((imm) => {
+                  return (   <img style={{width:100}} src={"/assets/reviews/" + product.slug.current + "/" + imm} />)
+                 })
+                  }
+                </div>
+            </div>
+        
+
+                )
+            })
+           }
+
+
+
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
         <div className='maylike-products-wrapper'>
+
+
+
+
                 <h2>You may also like</h2>
                 <div className='marquee'>
                     <div className='maylike-products-container track'>
@@ -381,6 +604,11 @@ products[2].name = "Oratech Smartwatch i7 Pro Max Series 7"
 products[3].name = "Wise Glaze"
 products[4].name = "Xiaomi Redmi Watch 2 Lite Black"
     
+    products[0].slug.current = "X8-Ultra-Smartwatch-49MM"
+products[1].slug.current = "Xiaomi-Smart-Band-7-Pro"
+products[2].slug.current = "Oratech-Smartwatch-i7-Pro-Max-Series-7"
+products[3].slug.current = "Wise-Glaze"
+products[4].slug.current = "Xiaomi-Redmi-Watch-2-Lite-Black"
 
 products[0].price = 20
 products[1].price = 30

@@ -134,6 +134,14 @@ products[2].name = "Oratech Smartwatch i7 Pro Max Series 7"
 products[3].name = "Wise Glaze"
 products[4].name = "Xiaomi Redmi Watch 2 Lite Black"
 
+console.log(products)
+
+products[0].slug.current = "X8-Ultra-Smartwatch-49MM"
+products[1].slug.current = "Xiaomi-Smart-Band-7-Pro"
+products[2].slug.current = "Oratech-Smartwatch-i7-Pro-Max-Series-7"
+products[3].slug.current = "Wise-Glaze"
+products[4].slug.current = "Xiaomi-Redmi-Watch-2-Lite-Black"
+
 
 
 products[0].price = 20
